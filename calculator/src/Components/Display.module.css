@@ -1,0 +1,13 @@
+.display{
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 240px;
+  font-size: 40px;
+  
+}
+
+input{
+  background-color:rgb(250, 247, 250);
+  border-radius: 10px;
+  
+}

@@ -1,0 +1,106 @@
+/* .buttonsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  
+} */
+/* 
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(103, 65, 136);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: rgb(187, 123, 226);
+}
+
+.button:active {
+  transform: translateY(2px);
+} */
+
+
+/* App.module.css */
+
+.calculator {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ButtonContainer.module.css */
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(103, 65, 136);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: rgb(187, 123, 226);
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+/* Display.module.css */
+
+.display {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Media queries for mobile screens */
+
+@media only screen and (max-width: 768px) {
+  .calculator {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .calculator {
+    max-width: 95%;
+    margin: 10px auto;
+  }
+  .button {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
